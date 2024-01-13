@@ -4,7 +4,7 @@ import os
 import csv 
 
 #read in csv
-csvpath = os.path.join('PyPoll', 'Resources', 'election_data.csv')
+csvpath = os.path.join( 'Resources', 'election_data.csv')
 print(csvpath)
 #make variable for total votes cast in dataset
 #make variables for votes cast for each candidate in dataset
